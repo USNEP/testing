@@ -19,7 +19,7 @@ var TopperComponent = (function () {
     TopperComponent = __decorate([
         core_1.Component({
             selector: 'topper',
-            template: "\n    <div >\n      <h2>Topper!</h2>\n       </div>\n  "
+            template: "\n    <div >\n      <h2>Topper!</h2>\n    </div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], TopperComponent);

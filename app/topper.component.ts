@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   template: `
     <div >
       <h2>Topper!</h2>
-       </div>
+    </div>
   `
 })
 export class TopperComponent {

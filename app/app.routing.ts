@@ -17,7 +17,6 @@ const appRoutes: Routes = [
     path: 'topper',
     component: TopperComponent
   }
-  
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
