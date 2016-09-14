@@ -17,6 +17,10 @@ const HEROES: Hero[] = [
   template: `
     <h1>{{title}}</h1>
     <h2>My Heroes</h2>
+     <nav>
+      <a routerLink="/detail" routerLinkActive="active">Detail</a>
+      <a routerLink="/topper" routerLinkActive="active">Topper</a>
+    </nav>
     <ul class="heroes">
       <li *ngFor="let hero of heroes"
         [class.selected]="hero === selectedHero"
@@ -24,7 +28,7 @@ const HEROES: Hero[] = [
         <span class="badge">{{hero.id}}</span> {{hero.name}}
       </li>
     </ul>
-       <router-outlet></router-outlet>
+    <router-outlet></router-outlet>
  `,
   styles: [`
     .selected {
