@@ -1,7 +1,7 @@
 "use strict";
 var router_1 = require('@angular/router');
-var hero_detail_component_1 = require('./hero-detail.component');
-var topper_component_1 = require('./topper.component');
+var hero_detail_component_1 = require('./detail/hero-detail.component');
+var topper_component_1 = require('./topper/topper.component');
 var appRoutes = [
     {
         path: '',

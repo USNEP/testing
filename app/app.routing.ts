@@ -2,8 +2,8 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
-import { HeroDetailComponent }  from './hero-detail.component';
-import { TopperComponent }  from './topper.component';
+import { HeroDetailComponent }  from './detail/hero-detail.component';
+import { TopperComponent }  from './topper/topper.component';
 const appRoutes: Routes = [
   {
     path: '',
